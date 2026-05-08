@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2026-04-21",
-        "lastUpdated": "2026-04-29 09:46:11",
+        "lastUpdated": "2026-05-07 21:15:00",
         "source": "https://patcher.573.moe/"
     },
     {
@@ -445,6 +445,68 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "B930B330A23087730698",
                 "dataEnabled": "530063006F0072006500"
+            }
+        ]
+    },
+    {
+        "name": "Enable Average Score Display",
+        "description": "Bypassing version and event checks. Also fixes 'all inputted' check logic.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2385725,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7C26",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 2385741,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7416",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 5362518,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7C4C",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 5362533,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "743D",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 1935119,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7C40",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 1917,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "837B48000F95C0C3CCCCCCCCCCCC"
+            },
+            {
+                "offset": 2400098,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E839630000",
+                "dataEnabled": "E81668DBFF"
+            },
+            {
+                "offset": 1935135,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7430",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 5906512,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4883EC",
+                "dataEnabled": "B001C3"
             }
         ]
     },
