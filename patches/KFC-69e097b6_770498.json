@@ -449,8 +449,8 @@
         ]
     },
     {
-        "name": "Enable Average Score Display",
-        "description": "Bypassing version and event checks. Also fixes 'all inputted' check logic.",
+        "name": "Force Enable Average Score",
+        "description": "Bypassing volforce, version and event checks.",
         "gameCode": "KFC",
         "type": "memory",
         "patches": [
@@ -483,18 +483,6 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "7C40",
                 "dataEnabled": "9090"
-            },
-            {
-                "offset": 1917,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-                "dataEnabled": "837B48000F95C0C3CCCCCCCCCCCC"
-            },
-            {
-                "offset": 2400098,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "E839630000",
-                "dataEnabled": "E81668DBFF"
             },
             {
                 "offset": 1935135,
