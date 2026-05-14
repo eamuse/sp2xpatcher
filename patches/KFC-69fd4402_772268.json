@@ -1,9 +1,9 @@
 [
     {
         "gameCode": "KFC",
-        "version": "2026-03-03",
-        "lastUpdated": "2026-05-14 06:59:51",
-        "source": "https://patcher.573.moe/"
+        "version": "2026-05-12",
+        "lastUpdated": "2026-05-14 06:37:29",
+        "source": "https://patcher.573.moe"
     },
     {
         "name": "Game FPS Target",
@@ -14,7 +14,7 @@
             {
                 "name": "60 FPS (Default)",
                 "patch": {
-                    "offset": 9546838,
+                    "offset": 9685150,
                     "dllName": "soundvoltex.dll",
                     "data": "4E"
                 }
@@ -22,7 +22,7 @@
             {
                 "name": "120 FPS",
                 "patch": {
-                    "offset": 9546838,
+                    "offset": 9685150,
                     "dllName": "soundvoltex.dll",
                     "data": "5E"
                 }
@@ -38,15 +38,15 @@
             {
                 "name": "60 FPS (Default)",
                 "patch": {
-                    "offset": 3826280,
+                    "offset": 3878360,
                     "dllName": "soundvoltex.dll",
-                    "data": "660F6EF0F30FE6F6F20F5935E0465700"
+                    "data": "660F6EF0F30FE6F6F20F5935A89F5800"
                 }
             },
             {
                 "name": "120 FPS",
                 "patch": {
-                    "offset": 3826280,
+                    "offset": 3878360,
                     "dllName": "soundvoltex.dll",
                     "data": "B878000000F20F2AF0F24890F2489090"
                 }
@@ -63,7 +63,7 @@
             {
                 "name": "ASIO 8ch (Default)",
                 "patch": {
-                    "offset": 6117031,
+                    "offset": 6231991,
                     "dllName": "soundvoltex.dll",
                     "data": "2B"
                 }
@@ -71,7 +71,7 @@
             {
                 "name": "ASIO 2ch",
                 "patch": {
-                    "offset": 6117031,
+                    "offset": 6231991,
                     "dllName": "soundvoltex.dll",
                     "data": "2A"
                 }
@@ -79,7 +79,7 @@
             {
                 "name": "WASAPI Shared (48kHz)",
                 "patch": {
-                    "offset": 6117031,
+                    "offset": 6231991,
                     "dllName": "soundvoltex.dll",
                     "data": "00"
                 }
@@ -87,7 +87,7 @@
             {
                 "name": "WASAPI Exclusive (16bit 44.1kHz 2ch)",
                 "patch": {
-                    "offset": 6117031,
+                    "offset": 6231991,
                     "dllName": "soundvoltex.dll",
                     "data": "02"
                 }
@@ -95,7 +95,7 @@
             {
                 "name": "WASAPI Exclusive (24bit 44.1kHz 2ch)",
                 "patch": {
-                    "offset": 6117031,
+                    "offset": 6231991,
                     "dllName": "soundvoltex.dll",
                     "data": "04"
                 }
@@ -103,7 +103,7 @@
             {
                 "name": "WASAPI Exclusive (24bit 44.1kHz 6ch)",
                 "patch": {
-                    "offset": 6117031,
+                    "offset": 6231991,
                     "dllName": "soundvoltex.dll",
                     "data": "0E"
                 }
@@ -117,7 +117,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 2191528,
+                "offset": 2220968,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "84",
                 "dataEnabled": "85"
@@ -131,19 +131,19 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 4886421,
+                "offset": 4994085,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "0F85",
                 "dataEnabled": "90E9"
             },
             {
-                "offset": 4684051,
+                "offset": 4750755,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "0F84",
                 "dataEnabled": "90E9"
             },
             {
-                "offset": 3557440,
+                "offset": 3597392,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "75",
                 "dataEnabled": "EB"
@@ -159,7 +159,7 @@
             {
                 "name": "00:00",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "AAB9650000000000"
                 }
@@ -167,7 +167,7 @@
             {
                 "name": "00:01",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "00CA9A3B00000000"
                 }
@@ -175,7 +175,7 @@
             {
                 "name": "04:20",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "002835893C000000"
                 }
@@ -183,7 +183,7 @@
             {
                 "name": "07:27",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "00B6461368000000"
                 }
@@ -191,7 +191,7 @@
             {
                 "name": "11:16",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "0068BD649D000000"
                 }
@@ -199,7 +199,7 @@
             {
                 "name": "13:37",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "00AAFE38BE000000"
                 }
@@ -207,7 +207,7 @@
             {
                 "name": "57:30",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "0044064423030000"
                 }
@@ -215,7 +215,7 @@
             {
                 "name": "69:00",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "00B83AEBC3030000"
                 }
@@ -223,7 +223,7 @@
             {
                 "name": "10 Minutes (Default)",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "0070C9B28B000000"
                 }
@@ -231,7 +231,7 @@
             {
                 "name": "15 Minutes",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "00282E8CD1000000"
                 }
@@ -239,7 +239,7 @@
             {
                 "name": "20 Minutes",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "00E0926517010000"
                 }
@@ -247,7 +247,7 @@
             {
                 "name": "30 Minutes",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "00505C18A3010000"
                 }
@@ -255,7 +255,7 @@
             {
                 "name": "45 Minutes",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "00788AA474020000"
                 }
@@ -263,7 +263,7 @@
             {
                 "name": "60 Minutes",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "00A0B83046030000"
                 }
@@ -271,7 +271,7 @@
             {
                 "name": "90 Minutes",
                 "patch": {
-                    "offset": 4784366,
+                    "offset": 4851422,
                     "dllName": "soundvoltex.dll",
                     "data": "00F01449E9040000"
                 }
@@ -285,7 +285,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9056736,
+                "offset": 9188576,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "61",
                 "dataEnabled": "75"
@@ -301,49 +301,49 @@
             {
                 "name": "Default",
                 "patch": {
-                    "offset": 2820070,
+                    "offset": 2854230,
                     "dllName": "soundvoltex.dll",
-                    "data": "E8657F2C0085C00F85FA000000"
+                    "data": "E835B82D0085C00F85FA000000"
                 }
             },
             {
                 "name": "Japan (J)",
                 "patch": {
-                    "offset": 2820070,
+                    "offset": 2854230,
                     "dllName": "soundvoltex.dll",
-                    "data": "B80000000089051F447D009090"
+                    "data": "B8000000008905570B80009090"
                 }
             },
             {
                 "name": "Korea (K)",
                 "patch": {
-                    "offset": 2820070,
+                    "offset": 2854230,
                     "dllName": "soundvoltex.dll",
-                    "data": "B80100000089051F447D009090"
+                    "data": "B8010000008905570B80009090"
                 }
             },
             {
                 "name": "Asia (A)",
                 "patch": {
-                    "offset": 2820070,
+                    "offset": 2854230,
                     "dllName": "soundvoltex.dll",
-                    "data": "B80200000089051F447D009090"
+                    "data": "B8020000008905570B80009090"
                 }
             },
             {
                 "name": "Indonesia (Y)",
                 "patch": {
-                    "offset": 2820070,
+                    "offset": 2854230,
                     "dllName": "soundvoltex.dll",
-                    "data": "B80300000089051F447D009090"
+                    "data": "B8030000008905570B80009090"
                 }
             },
             {
                 "name": "America (U)",
                 "patch": {
-                    "offset": 2820070,
+                    "offset": 2854230,
                     "dllName": "soundvoltex.dll",
-                    "data": "B80400000089051F447D009090"
+                    "data": "B8040000008905570B80009090"
                 }
             }
         ]
@@ -355,49 +355,49 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 414524,
+                "offset": 430028,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "8B15B6101D01",
+                "dataDisabled": "8B15F6662001",
                 "dataEnabled": "BA0100000090"
             },
             {
-                "offset": 414553,
+                "offset": 430057,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "8B1599101D01",
+                "dataDisabled": "8B15D9662001",
                 "dataEnabled": "BA0100000090"
             },
             {
-                "offset": 414582,
+                "offset": 430086,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "8B157C101D01",
+                "dataDisabled": "8B15BC662001",
                 "dataEnabled": "BA0100000090"
             },
             {
-                "offset": 414611,
+                "offset": 430115,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "8B155F101D01",
+                "dataDisabled": "8B159F662001",
                 "dataEnabled": "BA0100000090"
             },
             {
-                "offset": 414640,
+                "offset": 430144,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "8B1542101D01",
+                "dataDisabled": "8B1582662001",
                 "dataEnabled": "BA0100000090"
             },
             {
-                "offset": 414675,
+                "offset": 430179,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "8B151F101D01",
+                "dataDisabled": "8B155F662001",
                 "dataEnabled": "BA0100000090"
             },
             {
-                "offset": 414710,
+                "offset": 430214,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "8B15FC0F1D01",
+                "dataDisabled": "8B153C662001",
                 "dataEnabled": "BA0100000090"
             },
             {
-                "offset": 9436700,
+                "offset": 9573596,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "B930B330A23087730698",
                 "dataEnabled": "530063006F0072006500"
@@ -411,10 +411,60 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 1960162,
+                "offset": 1981490,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "E859100000",
                 "dataEnabled": "B801000000"
+            }
+        ]
+    },
+    {
+        "name": "Force Enable Average Score",
+        "description": "Bypass checks to enable music level average score for users below 20 volforce.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1938399,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7C40",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 1938415,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7430",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 2389021,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7C26",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 2389037,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7416",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 5368582,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7C4C",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 5368597,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "743D",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 5913056,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4883EC",
+                "dataEnabled": "B001C3"
             }
         ]
     },
@@ -425,10 +475,10 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 4048211,
+                "offset": 4101873,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "31BD4D00",
-                "dataEnabled": "21BD4D00"
+                "dataDisabled": "33FD4E00",
+                "dataEnabled": "23FD4E00"
             }
         ]
     },
@@ -439,73 +489,73 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 8966960,
+                "offset": 9097672,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "4652454520504C4159",
                 "dataEnabled": "000000000000000000"
             },
             {
-                "offset": 8966912,
+                "offset": 9097688,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "4556454E54204D4F4445",
                 "dataEnabled": "00000000000000000000"
             },
             {
-                "offset": 8966928,
+                "offset": 9097928,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "54454E4B4149434849204D4F4445",
                 "dataEnabled": "0000000000000000000000000000"
             },
             {
-                "offset": 8967048,
+                "offset": 9097752,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "504153454C493A202573202B202573",
                 "dataEnabled": "000000000000000000000000000000"
             },
             {
-                "offset": 8967000,
+                "offset": 9097704,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "4352454449543A202564202020434F494E3A202564202F202564",
                 "dataEnabled": "0000000000000000000000000000000000000000000000000000"
             },
             {
-                "offset": 8966944,
+                "offset": 9097736,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "4352454449543A20256400",
                 "dataEnabled": "0000000000000000000000"
             },
             {
-                "offset": 8967360,
+                "offset": 9098152,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "504153454C493A204E4F5420415641494C41424C45",
                 "dataEnabled": "000000000000000000000000000000000000000000"
             },
             {
-                "offset": 8967384,
+                "offset": 9097792,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "504153454C493A204E4F204143434F554E54",
                 "dataEnabled": "000000000000000000000000000000000000"
             },
             {
-                "offset": 8967031,
+                "offset": 9097815,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "00504153454C493A20257300",
                 "dataEnabled": "000000000000000000000000"
             },
             {
-                "offset": 8966976,
+                "offset": 9097768,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "455854524120504153454C493A202573",
                 "dataEnabled": "00000000000000000000000000000000"
             },
             {
-                "offset": 8967403,
+                "offset": 9098139,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "0025302A6400",
                 "dataEnabled": "000000000000"
             },
             {
-                "offset": 8967120,
+                "offset": 9097952,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "8347815B83578393834F928682C582B728257381602989F08F9C82B782E982C982CD8365835883678381836A8385815B82C993FC82E8814183658393834C815B82F02030302C2030302C2030302C20362C20302082CC8F8782C5899F82B582C482AD82BE82B382A281420A8347815B83578393834F82F08DC48A4A82B782E98FEA8D8782CD8365835883678356815B839382C530302C2030302C2030302C20362C20312082CC8F8782C5899F82B582C482AD82BE82B382A28142",
                 "dataEnabled": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
@@ -519,61 +569,61 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 1351790,
+                "offset": 1373838,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "01",
                 "dataEnabled": "00"
             },
             {
-                "offset": 1794515,
+                "offset": 1816019,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "F30F1015F5477600",
+                "dataDisabled": "F30F10152D187800",
                 "dataEnabled": "0F57D29090909090"
             },
             {
-                "offset": 1796353,
+                "offset": 1817857,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "F30F1015C7407600",
+                "dataDisabled": "F30F1015FF107800",
                 "dataEnabled": "0F57D29090909090"
             },
             {
-                "offset": 1801441,
+                "offset": 1822945,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "0F28DF0F28D7",
                 "dataEnabled": "0F57DB33D290"
             },
             {
-                "offset": 1801451,
+                "offset": 1822955,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "51BF",
+                "dataDisabled": "B120",
                 "dataEnabled": "6281"
             },
             {
-                "offset": 1801679,
+                "offset": 1823183,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "0F28DF0F28D7",
                 "dataEnabled": "0F57DB33D290"
             },
             {
-                "offset": 1801689,
+                "offset": 1823193,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "63BE",
+                "dataDisabled": "C31F",
                 "dataEnabled": "7480"
             },
             {
-                "offset": 2190602,
+                "offset": 2220042,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "400FB6D5",
                 "dataEnabled": "33D29090"
             },
             {
-                "offset": 2195566,
+                "offset": 2225006,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "01",
                 "dataEnabled": "00"
             },
             {
-                "offset": 4852377,
+                "offset": 4959993,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "01",
                 "dataEnabled": "00"
@@ -588,7 +638,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 5856725,
+                "offset": 5970485,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "8705",
                 "dataEnabled": "A70C"
@@ -602,7 +652,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 6031462,
+                "offset": 6145238,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "0F10060F114760",
                 "dataEnabled": "C7476001000000"
@@ -617,7 +667,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 5548270,
+                "offset": 5660974,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "83BDB800000002410F93C64488742451",
                 "dataEnabled": "41B60044887424519090909090909090"
@@ -632,7 +682,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 3828729,
+                "offset": 3880809,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "75",
                 "dataEnabled": "EB"
@@ -647,7 +697,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 3828881,
+                "offset": 3880961,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "75",
                 "dataEnabled": "EB"
@@ -662,19 +712,19 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 3828920,
+                "offset": 3881000,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "74",
                 "dataEnabled": "75"
             },
             {
-                "offset": 5549867,
+                "offset": 5662571,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "74",
                 "dataEnabled": "75"
             },
             {
-                "offset": 5552208,
+                "offset": 5664912,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "74",
                 "dataEnabled": "75"
