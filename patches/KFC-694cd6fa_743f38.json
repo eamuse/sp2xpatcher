@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2025-12-26",
-        "lastUpdated": "2026-05-14 06:59:51",
+        "lastUpdated": "2026-05-16 20:00:04",
         "source": "https://patcher.573.moe/"
     },
     {
@@ -537,30 +537,6 @@
                 "dataEnabled": "0F57D29090909090"
             },
             {
-                "offset": 1775627,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "0F28DF0F28D7",
-                "dataEnabled": "0F57DB33D290"
-            },
-            {
-                "offset": 1775637,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "8722",
-                "dataEnabled": "6281"
-            },
-            {
-                "offset": 1775865,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "0F28DF0F28D7",
-                "dataEnabled": "0F57DB33D290"
-            },
-            {
-                "offset": 1775875,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "9921",
-                "dataEnabled": "7480"
-            },
-            {
                 "offset": 2145562,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "400FB6D5",
@@ -577,6 +553,30 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "01",
                 "dataEnabled": "00"
+            },
+            {
+                "offset": 1775627,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F28DF0F28D7",
+                "dataEnabled": "0F57DB33D290"
+            },
+            {
+                "offset": 1775637,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "87224500",
+                "dataEnabled": "881F4500"
+            },
+            {
+                "offset": 1775865,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F28DF0F28D7",
+                "dataEnabled": "0F57DB33D290"
+            },
+            {
+                "offset": 1775875,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "99214500",
+                "dataEnabled": "9A1E4500"
             }
         ]
     },

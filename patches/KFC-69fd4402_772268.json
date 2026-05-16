@@ -2,8 +2,8 @@
     {
         "gameCode": "KFC",
         "version": "2026-05-12",
-        "lastUpdated": "2026-05-14 06:37:29",
-        "source": "https://patcher.573.moe"
+        "lastUpdated": "2026-05-16 20:00:04",
+        "source": "https://patcher.573.moe/"
     },
     {
         "name": "Game FPS Target",
@@ -587,30 +587,6 @@
                 "dataEnabled": "0F57D29090909090"
             },
             {
-                "offset": 1822945,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "0F28DF0F28D7",
-                "dataEnabled": "0F57DB33D290"
-            },
-            {
-                "offset": 1822955,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "B120",
-                "dataEnabled": "6281"
-            },
-            {
-                "offset": 1823183,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "0F28DF0F28D7",
-                "dataEnabled": "0F57DB33D290"
-            },
-            {
-                "offset": 1823193,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "C31F",
-                "dataEnabled": "7480"
-            },
-            {
                 "offset": 2220042,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "400FB6D5",
@@ -627,6 +603,30 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "01",
                 "dataEnabled": "00"
+            },
+            {
+                "offset": 1822945,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F28DF0F28D7",
+                "dataEnabled": "0F57DB33D290"
+            },
+            {
+                "offset": 1822955,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "B1204700",
+                "dataEnabled": "221D4700"
+            },
+            {
+                "offset": 1823183,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F28DF0F28D7",
+                "dataEnabled": "0F57DB33D290"
+            },
+            {
+                "offset": 1823193,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "C31F4700",
+                "dataEnabled": "341C4700"
             }
         ]
     },
