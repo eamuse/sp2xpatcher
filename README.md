@@ -8,29 +8,33 @@ This is a collection of patches/hex edits for modern BEMANI titles. Patches here
 
 ## Usage
 
-If you're already familiar with spice2x's `Patches` menu, simply import patches from the following URL:  `https://patcher.573.moe/`
+If you're already familiar with spice2x's `Patches` menu, simply import patches from the following URL:  
+`https://patcher.573.moe/`
 
 For users unfamiliar with patching in spice2x, click on one of the methods below and follow the steps:
 
 <details>
 <summary style="font-size: 16px">Method #1: Import from URL (easiest)</summary>
 
-> [!TIP]
-> If you're having trouble following these steps, update spice2x to the latest stable release from https://spice2x.github.io/.
+> *If you're having trouble following these steps, update spice2x to the latest stable release from https://spice2x.github.io/.*
 
 The easiest way to patch game files is by importing patches from a URL, this process just takes a few clicks.
 You can do this by opening `spicecfg.exe` directly, or by typing `spice64 --cfg` into the command line.
 
 Click on the `Patches` tab at the top. This will open up a new menu.
+
 ![](/tutorial/tutorial_1.jpg)
 
 Click the `Import from URL` button.
+
 ![](/tutorial/tutorial_2.jpg)
 
 Type or paste `https://patcher.573.moe` into the `Enter URL` box, then click the `Import` button at the bottom.
+
 ![](tutorial/tutorial_3.jpg)
 
 As long as your game is [supported](/SUPPORTED.md), a list of patches will show up below. You can then hover over a patch to learn more about what it does.
+
 ![](tutorial/tutorial_4.jpg)
 </details>
 
@@ -105,9 +109,9 @@ A web patcher that supports older games and versions. If we don't have a patch f
 
 ## Patch Contributions
 
-[Logthm](https://github.com/Logthm) - "Enable Average Score Display" for `KFC-2026042103` and newer (#3)
+[Logthm](https://github.com/Logthm) - "Enable Average Score Display" for `KFC-2026042103` and newer ([#3](https://github.com/eamuse/sp2xpatcher/pull/3))
 
-[takanashiryo](https://github.com/takanashiryo) - "Hide Timer" for `KFC-2025122600` and newer (#1), 
-"Audio Mode" for `KFC-2025120900` and newer (#2)
+[takanashiryo](https://github.com/takanashiryo) - "Hide Timer" for `KFC-2025122600` and newer ([#1](https://github.com/eamuse/sp2xpatcher/pull/1)), 
+"Audio Mode" for `KFC-2025120900` and newer ([#2](https://github.com/eamuse/sp2xpatcher/pull/2))
 
 **Patches hosted on here are based on patches from mon's BemaniPatcher and two-torial's (defunct) sp2xpatcher. This project would not be possible without those who contributed to BemaniPatcher and two-torial.**
