@@ -78,11 +78,11 @@ For a detailed overview of audio modes, read [Audio modes demystified](https://g
 
 **Make sure your game version is supported.** An import failed error with code 404 most often means your game/version isn't supported here. You are welcome to open a new issue asking for support or contribute patches yourself.
  
-### Should I click "Overwrite game files" after patching?
+### I'm playing on a cab and my patches won't save
 
-**Only if you're on an arcade cab image or if you know what you're doing.** Pressing this button will replace your game's DLL with a patched one and write a backup to `{module}.bak`. *You should still back up your own game files anyway.* This option is often used on arcade cabinets where your saved patches are discarded after rebooting.
+**Use the "Overwrite Game Files" option in spice2x.** Pressing this button will replace your game's DLL with a patched one and write a backup to `{module}.bak`. *You should still back up your own game files anyway.* 
 
-Otherwise, your patches are automatically applied when starting the game through spice, and there's nothing more you have to do after selecting patches and booting up. For this to work, make sure `Auto apply patches on game start` is checked.
+This happens because by default, arcade cabs filter and discard any changes made to `C:\`, which is where spice2x saves your selected patches.
 
 
 ## Other Resources
