@@ -329,6 +329,7 @@ Patches for which we don't know the corresponding game version.
 | KFC | soundvoltex.dll | 2026-06-15 | [KFC-6a29084b_78a6c8](patches/KFC-6a29084b_78a6c8.json) |
 | KFC | soundvoltex.dll | 2026-06-30 | [KFC-6a3c9c77_8aab48](patches/KFC-6a3c9c77_8aab48.json) |
 | KFC | soundvoltex.dll | 2026-07-07 | [KFC-6a4b3e8a_8ab548](patches/KFC-6a4b3e8a_8ab548.json) |
+| KFC | soundvoltex.dll | 2026-07-09 | [KFC-6a4c9c2e_78e3e8](patches/KFC-6a4c9c2e_78e3e8.json) |
 
 </details>
 
