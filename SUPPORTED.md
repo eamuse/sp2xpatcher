@@ -222,6 +222,7 @@ Patches for which we don't know the corresponding game version.
 | LDJ-010 | bm2dx.dll | 2026-06-29 | [LDJ-6a390207_b0b6ec](patches/LDJ-6a390207_b0b6ec.json) |
 | LDJ-010 | bm2dx.dll | 2026-07-21 | [LDJ-6a55dd96_a42d6c](patches/LDJ-6a55dd96_a42d6c.json) |
 | LDJ-012 | bm2dx.dll | 2026-07-21 | [LDJ-6a55da4e_b0fcdc](patches/LDJ-6a55da4e_b0fcdc.json) |
+| LDJ-010 | bm2dx.dll | 2026-08-04 | [LDJ-6a68333c_b1c14c](patches/LDJ-6a68333c_b1c14c.json) |
 
 </details>
 
@@ -333,6 +334,7 @@ Patches for which we don't know the corresponding game version.
 | KFC | soundvoltex.dll | 2026-07-07 | [KFC-6a4b3e8a_8ab548](patches/KFC-6a4b3e8a_8ab548.json) |
 | KFC | soundvoltex.dll | 2026-07-09 | [KFC-6a4c9c2e_78e3e8](patches/KFC-6a4c9c2e_78e3e8.json) |
 | KFC | soundvoltex.dll | 2026-07-14 | [KFC-6a4f1ee9_79ef18](patches/KFC-6a4f1ee9_79ef18.json) |
+| KFC | soundvoltex.dll | 2026-08-04 | [KFC-6a6aea05_7a56a8](patches/KFC-6a6aea05_7a56a8.json) |
 
 </details>
 
@@ -731,6 +733,14 @@ Patches for which we don't know the corresponding game version.
 | M39 | popn22.dll | 2025-06-03 | [M39-68358bae_191380](patches/M39-68358bae_191380.json) |
 | M39 | popn22.dll | 2025-07-22 | [M39-686f7e07_1921a0](patches/M39-686f7e07_1921a0.json) |
 | M39 | popn22.dll | 2025-09-24 | [M39-68c92f86_192170](patches/M39-68c92f86_192170.json) |
+
+</details>
+
+<details><summary>pop'n music High Cheers!!</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| M39 | popn.dll | 2026-04-15 | [M39-69dc9275_403e98](patches/M39-69dc9275_403e98.json) |
 
 </details>
 

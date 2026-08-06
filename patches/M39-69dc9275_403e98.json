@@ -1,0 +1,292 @@
+[
+    {
+        "gameCode": "M39",
+        "version": "2026-04-15",
+        "lastUpdated": "2026-08-06 02:32:18",
+        "source": "https://patcher.573.moe/"
+    },
+    {
+        "name": "Remove Standard Timer",
+        "description": "Disables and hides non-time play timers.",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 133069,
+                "dllName": "popn.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Time Play Timer Disable",
+        "description": "Disables the timer in time play modes.",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 133026,
+                "dllName": "popn.dll",
+                "dataDisabled": "0FB6F2",
+                "dataEnabled": "B20190"
+            },
+            {
+                "offset": 133049,
+                "dllName": "popn.dll",
+                "dataDisabled": "400FB6D6",
+                "dataEnabled": "B2019090"
+            }
+        ]
+    },
+    {
+        "name": "Expand Judge Adjust Window",
+        "description": "Expands the minimum and maximum 'Judge Adjust' settings values to -90 and 90, respectively.",
+        "caution": "WIP. Values below -30 and above 30 may not be saved between songs.",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2117218,
+                "dllName": "popn.dll",
+                "dataDisabled": "1E",
+                "dataEnabled": "5A"
+            },
+            {
+                "offset": 2117225,
+                "dllName": "popn.dll",
+                "dataDisabled": "E2",
+                "dataEnabled": "A6"
+            }
+        ]
+    },
+    {
+        "name": "Judge Adjust Default Offset",
+        "description": "Lower values = earlier notes. Default = 35",
+        "gameCode": "M39",
+        "type": "number",
+        "patch": {
+            "dllName": "popn.dll",
+            "offset": 2055310,
+            "size": 1,
+            "min": 0,
+            "max": 100
+        }
+    },
+    {
+        "name": "Disable character win/lose animation",
+        "description": "Disables character win/lose animation at the end of a song.",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1971947,
+                "dllName": "popn.dll",
+                "dataDisabled": "E870F50000",
+                "dataEnabled": "0F1F440000"
+            },
+            {
+                "offset": 1971959,
+                "dllName": "popn.dll",
+                "dataDisabled": "E864F50000",
+                "dataEnabled": "0F1F440000"
+            },
+            {
+                "offset": 1971976,
+                "dllName": "popn.dll",
+                "dataDisabled": "E853F50000",
+                "dataEnabled": "0F1F440000"
+            },
+            {
+                "offset": 1971990,
+                "dllName": "popn.dll",
+                "dataDisabled": "E845F50000",
+                "dataEnabled": "0F1F440000"
+            },
+            {
+                "offset": 1971997,
+                "dllName": "popn.dll",
+                "dataDisabled": "E85EBA0000",
+                "dataEnabled": "0F1F440000"
+            }
+        ]
+    },
+    {
+        "name": "Unscramble Touchscreen Keypad",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1296156,
+                "dllName": "popn.dll",
+                "dataDisabled": "2BC2D1E803C2C1E8036BC00E",
+                "dataEnabled": "83E80C909090909090909090"
+            }
+        ]
+    },
+    {
+        "name": "Hide Bottom Text",
+        "description": "Hides text in the bottom corners of the screen, such as CREDIT, PASELI, and NETWORK.",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 5085584,
+                "dllName": "popn.dll",
+                "dataDisabled": "5B633A6666666666665D5B6F6C3A325D5B6F6C633A3030303030305D4556454E54204D4F4445",
+                "dataEnabled": "0000000000000000000000000000000000000000000000000000000000000000000000000000"
+            },
+            {
+                "offset": 5085624,
+                "dllName": "popn.dll",
+                "dataDisabled": "5B633A6666666666665D5B6F6C3A325D5B6F6C633A3030303030305D4652454520504C4159",
+                "dataEnabled": "00000000000000000000000000000000000000000000000000000000000000000000000000"
+            },
+            {
+                "offset": 5085664,
+                "dllName": "popn.dll",
+                "dataDisabled": "504153454C493A4E4F5420415641494C41424C45",
+                "dataEnabled": "0000000000000000000000000000000000000000"
+            },
+            {
+                "offset": 5085688,
+                "dllName": "popn.dll",
+                "dataDisabled": "504153454C493A4E4F204143434F554E54",
+                "dataEnabled": "0000000000000000000000000000000000"
+            },
+            {
+                "offset": 5085712,
+                "dllName": "popn.dll",
+                "dataDisabled": "5B633A6666666666665D5B6F6C3A325D5B6F6C633A3030303030305D2573",
+                "dataEnabled": "000000000000000000000000000000000000000000000000000000000000"
+            },
+            {
+                "offset": 5085744,
+                "dllName": "popn.dll",
+                "dataDisabled": "5B633A6666666666665D5B6F6C3A325D5B6F6C633A3030303030305D455854524120504153454C493A253564",
+                "dataEnabled": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+            },
+            {
+                "offset": 5085792,
+                "dllName": "popn.dll",
+                "dataDisabled": "43524544495453",
+                "dataEnabled": "00000000000000"
+            },
+            {
+                "offset": 5085800,
+                "dllName": "popn.dll",
+                "dataDisabled": "43524544495420",
+                "dataEnabled": "00000000000000"
+            },
+            {
+                "offset": 5085808,
+                "dllName": "popn.dll",
+                "dataDisabled": "7B7D207B3A327D",
+                "dataEnabled": "00000000000000"
+            },
+            {
+                "offset": 5085816,
+                "dllName": "popn.dll",
+                "dataDisabled": "434F494E53",
+                "dataEnabled": "0000000000"
+            },
+            {
+                "offset": 5085824,
+                "dllName": "popn.dll",
+                "dataDisabled": "434F494E20",
+                "dataEnabled": "0000000000"
+            },
+            {
+                "offset": 5085832,
+                "dllName": "popn.dll",
+                "dataDisabled": "7B7D207B3A327D207B7D207B3A327D2F7B3A327D",
+                "dataEnabled": "0000000000000000000000000000000000000000"
+            },
+            {
+                "offset": 5085856,
+                "dllName": "popn.dll",
+                "dataDisabled": "504153454C493A202A2A2A2A2A2A",
+                "dataEnabled": "0000000000000000000000000000"
+            },
+            {
+                "offset": 5085872,
+                "dllName": "popn.dll",
+                "dataDisabled": "504153454C493A202D20",
+                "dataEnabled": "00000000000000000000"
+            },
+            {
+                "offset": 5085888,
+                "dllName": "popn.dll",
+                "dataDisabled": "504153454C493A20303030303030",
+                "dataEnabled": "0000000000000000000000000000"
+            },
+            {
+                "offset": 5085904,
+                "dllName": "popn.dll",
+                "dataDisabled": "504153454C493A207B3A367D",
+                "dataEnabled": "000000000000000000000000"
+            },
+            {
+                "offset": 5085920,
+                "dllName": "popn.dll",
+                "dataDisabled": "202B207B3A357D0020",
+                "dataEnabled": "000000000000000000"
+            },
+            {
+                "offset": 5085936,
+                "dllName": "popn.dll",
+                "dataDisabled": "4E4554574F524B204F4B",
+                "dataEnabled": "00000000000000000000"
+            },
+            {
+                "offset": 5085952,
+                "dllName": "popn.dll",
+                "dataDisabled": "4E4554574F524B204F4646",
+                "dataEnabled": "0000000000000000000000"
+            },
+            {
+                "offset": 5085968,
+                "dllName": "popn.dll",
+                "dataDisabled": "4E4554574F524B204E47",
+                "dataEnabled": "00000000000000000000"
+            },
+            {
+                "offset": 5085984,
+                "dllName": "popn.dll",
+                "dataDisabled": "4D41494E54454E414E4345",
+                "dataEnabled": "0000000000000000000000"
+            }
+        ]
+    },
+    {
+        "name": "Force WASAPI Shared Audio",
+        "description": "Requires 48000Hz sample rate when patching.",
+        "caution": "Typically not needed, prefer using Spice2x's '-wasapishared' option.",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3286773,
+                "dllName": "popn.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "name": "Force 60 FPS",
+        "description": "Changes the main monitor's target framerate to 60 FPS (default: 120).",
+        "caution": "Experimental, needs further testing",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2474814,
+                "dllName": "popn.dll",
+                "dataDisabled": "78",
+                "dataEnabled": "3C"
+            }
+        ]
+    }
+]
