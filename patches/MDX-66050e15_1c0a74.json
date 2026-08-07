@@ -2,7 +2,7 @@
     {
         "gameCode": "MDX",
         "version": "2024-04-02 (003)",
-        "lastUpdated": "2026-04-04 02:04:26",
+        "lastUpdated": "2026-08-05 19:30:00",
         "source": "https://patcher.573.moe/"
     },
     {
@@ -30,6 +30,20 @@
                 "dllName": "gamemdx.dll",
                 "dataDisabled": "8B4144C3CCCC",
                 "dataEnabled": "B801000000C3"
+            }
+        ]
+    },
+    {
+        "name": "Autoplay",
+        "description": "Automatically hit Marvelous",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 250179,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "7444",
+                "dataEnabled": "9090"
             }
         ]
     },
@@ -127,16 +141,48 @@
         ]
     },
     {
-        "name": "Timer Freeze",
-        "description": "",
+        "name": "Skip Caution and Tutorial Screens",
+        "description": "Skips the caution screen and tutorial shown after style select.",
         "gameCode": "MDX",
         "type": "memory",
         "patches": [
             {
-                "offset": 209776,
+                "offset": 155044,
                 "dllName": "gamemdx.dll",
-                "dataDisabled": "74",
-                "dataEnabled": "EB"
+                "dataDisabled": "B817000000",
+                "dataEnabled": "B81A000000"
+            },
+            {
+                "offset": 155060,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "B82D000000",
+                "dataEnabled": "B81A000000"
+            },
+            {
+                "offset": 155641,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "B838000000",
+                "dataEnabled": "B81A000000"
+            }
+        ]
+    },
+    {
+        "name": "Disable Timer",
+        "description": "Timer is no longer visible or functional",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 208514,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F85E1050000",
+                "dataEnabled": "E9E205000090"
+            },
+            {
+                "offset": 208692,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F85B4020000",
+                "dataEnabled": "E93005000090"
             }
         ]
     },
@@ -241,16 +287,30 @@
         ]
     },
     {
-        "name": "Hide all bottom text",
+        "name": "Disable bottom text",
         "description": "Such as EVENT MODE, PASELI, COIN, CREDIT, MAINTENANCE",
         "gameCode": "MDX",
         "type": "memory",
         "patches": [
             {
-                "offset": 1998656,
+                "offset": 37969,
                 "dllName": "gamemdx.dll",
-                "dataDisabled": "4556454E54204D4F44450000000000004652454520504C41590000005300000020000000544F4B454E000000434F494E0000000000000000257325733A2532642F2532640000000043524544495425733A25326400000000303030303000000030303030303000002A2A2A2A2A2A0000504153454C493A202573202B20257300504153454C493A202573000000000000455854524120504153454C493A2025730000000000000000504153454C493A204E4F5420415641494C41424C450000004C4F43414C204D4F44450000000000004F46464C494E45204D4F4445000000004D41494E54454E414E43450000000000434845434B494E470000000000000000434845434B494E472E00000000000000434845434B494E472E2E000000000000434845434B494E472E2E2E004F4E4C494E4500004552524F52000000000000004E4F5420415641494C41424C45",
-                "dataEnabled": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                "dataDisabled": "E8AAE9FFFF",
+                "dataEnabled": "9090909090"
+            }
+        ]
+    },
+    {
+        "name": "Disable Attract Sequences",
+        "description": "Title screen stays active until game is started.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 425821,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F8271010000",
+                "dataEnabled": "E97201000090"
             }
         ]
     },
