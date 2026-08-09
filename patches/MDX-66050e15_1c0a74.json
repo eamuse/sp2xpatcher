@@ -36,6 +36,7 @@
     {
         "name": "Autoplay",
         "description": "Automatically hit Marvelous",
+        "caution": "This will get you banned from most networks! Check with your network before using.",
         "gameCode": "MDX",
         "type": "memory",
         "patches": [

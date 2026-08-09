@@ -2,7 +2,7 @@
     {
         "gameCode": "M39",
         "version": "2026-04-15",
-        "lastUpdated": "2026-08-06 02:32:18",
+        "lastUpdated": "2026-08-09 03:26:34",
         "source": "https://patcher.573.moe/"
     },
     {
@@ -20,8 +20,9 @@
         ]
     },
     {
-        "name": "Time Play Timer Disable",
-        "description": "Disables the timer in time play modes.",
+        "name": "Time Play Timer Freeze",
+        "description": "Freezes the timer in time play modes.",
+        "caution": "Experimental. Shows 00:00 before playing the first song.",
         "gameCode": "M39",
         "type": "memory",
         "patches": [
@@ -40,9 +41,217 @@
         ]
     },
     {
+        "name": "(10 Min) Time Play Timer Length",
+        "description": "",
+        "gameCode": "M39",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "offset": 834346,
+                    "dllName": "popn.dll",
+                    "data": "0070C9B28B000000"
+                }
+            },
+            {
+                "name": "00:01",
+                "patch": {
+                    "offset": 834346,
+                    "dllName": "popn.dll",
+                    "data": "00CA9A3B00000000"
+                }
+            },
+            {
+                "name": "04:20",
+                "patch": {
+                    "offset": 834346,
+                    "dllName": "popn.dll",
+                    "data": "002835893C000000"
+                }
+            },
+            {
+                "name": "7:27",
+                "patch": {
+                    "offset": 834346,
+                    "dllName": "popn.dll",
+                    "data": "00B6461368000000"
+                }
+            },
+            {
+                "name": "11:16",
+                "patch": {
+                    "offset": 834346,
+                    "dllName": "popn.dll",
+                    "data": "0068BD649D000000"
+                }
+            },
+            {
+                "name": "13:37",
+                "patch": {
+                    "offset": 834346,
+                    "dllName": "popn.dll",
+                    "data": "00AAFE38BE000000"
+                }
+            },
+            {
+                "name": "57:30",
+                "patch": {
+                    "offset": 834346,
+                    "dllName": "popn.dll",
+                    "data": "0044064423030000"
+                }
+            },
+            {
+                "name": "67:00",
+                "patch": {
+                    "offset": 834346,
+                    "dllName": "popn.dll",
+                    "data": "0008ACFAA7030000"
+                }
+            },
+            {
+                "name": "69:00",
+                "patch": {
+                    "offset": 834346,
+                    "dllName": "popn.dll",
+                    "data": "00B83AEBC3030000"
+                }
+            },
+            {
+                "name": "30 Minutes",
+                "patch": {
+                    "offset": 834346,
+                    "dllName": "popn.dll",
+                    "data": "00505C18A3010000"
+                }
+            },
+            {
+                "name": "60 Minutes",
+                "patch": {
+                    "offset": 834346,
+                    "dllName": "popn.dll",
+                    "data": "00A0B83046030000"
+                }
+            },
+            {
+                "name": "90 Minutes",
+                "patch": {
+                    "offset": 834346,
+                    "dllName": "popn.dll",
+                    "data": "00F01449E9040000"
+                }
+            }
+        ]
+    },
+    {
+        "name": "(16 Min) Time Play Timer Length",
+        "description": "",
+        "gameCode": "M39",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "offset": 834334,
+                    "dllName": "popn.dll",
+                    "data": "00807584DF000000"
+                }
+            },
+            {
+                "name": "00:01",
+                "patch": {
+                    "offset": 834334,
+                    "dllName": "popn.dll",
+                    "data": "00CA9A3B00000000"
+                }
+            },
+            {
+                "name": "04:20",
+                "patch": {
+                    "offset": 834334,
+                    "dllName": "popn.dll",
+                    "data": "002835893C000000"
+                }
+            },
+            {
+                "name": "7:27",
+                "patch": {
+                    "offset": 834334,
+                    "dllName": "popn.dll",
+                    "data": "00B6461368000000"
+                }
+            },
+            {
+                "name": "11:16",
+                "patch": {
+                    "offset": 834334,
+                    "dllName": "popn.dll",
+                    "data": "0068BD649D000000"
+                }
+            },
+            {
+                "name": "13:37",
+                "patch": {
+                    "offset": 834334,
+                    "dllName": "popn.dll",
+                    "data": "00AAFE38BE000000"
+                }
+            },
+            {
+                "name": "57:30",
+                "patch": {
+                    "offset": 834334,
+                    "dllName": "popn.dll",
+                    "data": "0044064423030000"
+                }
+            },
+            {
+                "name": "67:00",
+                "patch": {
+                    "offset": 834334,
+                    "dllName": "popn.dll",
+                    "data": "0008ACFAA7030000"
+                }
+            },
+            {
+                "name": "69:00",
+                "patch": {
+                    "offset": 834334,
+                    "dllName": "popn.dll",
+                    "data": "00B83AEBC3030000"
+                }
+            },
+            {
+                "name": "30 Minutes",
+                "patch": {
+                    "offset": 834334,
+                    "dllName": "popn.dll",
+                    "data": "00505C18A3010000"
+                }
+            },
+            {
+                "name": "60 Minutes",
+                "patch": {
+                    "offset": 834334,
+                    "dllName": "popn.dll",
+                    "data": "00A0B83046030000"
+                }
+            },
+            {
+                "name": "90 Minutes",
+                "patch": {
+                    "offset": 834334,
+                    "dllName": "popn.dll",
+                    "data": "00F01449E9040000"
+                }
+            }
+        ]
+    },
+    {
         "name": "Expand Judge Adjust Window",
         "description": "Expands the minimum and maximum 'Judge Adjust' settings values to -90 and 90, respectively.",
-        "caution": "WIP. Values below -30 and above 30 may not be saved between songs.",
+        "caution": "Experimental. Judge adjust resets to 0 after playing when absolute value is >30.",
         "gameCode": "M39",
         "type": "memory",
         "patches": [
@@ -63,6 +272,7 @@
     {
         "name": "Judge Adjust Default Offset",
         "description": "Lower values = earlier notes. Default = 35",
+        "caution": "Experimental",
         "gameCode": "M39",
         "type": "number",
         "patch": {
@@ -75,39 +285,15 @@
     },
     {
         "name": "Disable character win/lose animation",
-        "description": "Disables character win/lose animation at the end of a song.",
+        "description": "Exit out of songs faster.",
         "gameCode": "M39",
         "type": "memory",
         "patches": [
             {
-                "offset": 1971947,
+                "offset": 1964270,
                 "dllName": "popn.dll",
-                "dataDisabled": "E870F50000",
-                "dataEnabled": "0F1F440000"
-            },
-            {
-                "offset": 1971959,
-                "dllName": "popn.dll",
-                "dataDisabled": "E864F50000",
-                "dataEnabled": "0F1F440000"
-            },
-            {
-                "offset": 1971976,
-                "dllName": "popn.dll",
-                "dataDisabled": "E853F50000",
-                "dataEnabled": "0F1F440000"
-            },
-            {
-                "offset": 1971990,
-                "dllName": "popn.dll",
-                "dataDisabled": "E845F50000",
-                "dataEnabled": "0F1F440000"
-            },
-            {
-                "offset": 1971997,
-                "dllName": "popn.dll",
-                "dataDisabled": "E85EBA0000",
-                "dataEnabled": "0F1F440000"
+                "dataDisabled": "E85D1C0000",
+                "dataEnabled": "B801000000"
             }
         ]
     },
@@ -277,7 +463,7 @@
     {
         "name": "Force 60 FPS",
         "description": "Changes the main monitor's target framerate to 60 FPS (default: 120).",
-        "caution": "Experimental, needs further testing",
+        "caution": "Experimental.",
         "gameCode": "M39",
         "type": "memory",
         "patches": [
