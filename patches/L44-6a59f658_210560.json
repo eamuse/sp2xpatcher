@@ -1,0 +1,193 @@
+[
+    {
+        "gameCode": "L44",
+        "version": "2026-07-22",
+        "lastUpdated": "2026-08-12 09:32:27",
+        "source": "https://patcher.573.moe/"
+    },
+    {
+        "name": "Skip Tutorial",
+        "description": "Skips the tutorial.",
+        "caution": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 902351,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Skip Online Matching",
+        "description": "Skips online matching when starting a song.",
+        "caution": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 886111,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Skip Category Select",
+        "description": "Skips category select.",
+        "caution": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 810347,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "07"
+            }
+        ]
+    },
+    {
+        "name": "Song Select Timer Freeze",
+        "description": "Freezes the song select timer.",
+        "caution": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 809439,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Song Result Timer Freeze",
+        "description": "Freezes the song result timer. It'll still go down to 0 but then stop.",
+        "caution": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 709403,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Force Unlock All Markers",
+        "description": "Force unlocks all markers.",
+        "caution": "If possible, do this server-side instead of patching.",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1523421,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 1830480,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 1831226,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "0FB745B0",
+                "dataEnabled": "31C09090"
+            }
+        ]
+    },
+    {
+        "name": "Force Unlock All Backgrounds",
+        "description": "Force unlocks all backgrounds.",
+        "caution": "If possible, do this server-side instead of patching.",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1334046,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 1334779,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "0FB745B0",
+                "dataEnabled": "31C09090"
+            },
+            {
+                "offset": 1523600,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Force Enable Expert Option",
+        "description": "Force enables the expert option.",
+        "caution": "If possible, do this server-side instead of patching.",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 923888,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "558BEC",
+                "dataEnabled": "B001C3"
+            }
+        ]
+    },
+    {
+        "name": "Force Default Marker For Guest Play",
+        "description": "Force sets the default marker for guest play.",
+        "caution": "If possible use a network and card-in instead of playing as a guest and using this.",
+        "gameCode": "L44",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "offset": 381959,
+                    "dllName": "jubeat.dll",
+                    "data": "31"
+                }
+            },
+            {
+                "name": "Festo",
+                "patch": {
+                    "offset": 381959,
+                    "dllName": "jubeat.dll",
+                    "data": "2E"
+                }
+            },
+            {
+                "name": "Qubell",
+                "patch": {
+                    "offset": 381959,
+                    "dllName": "jubeat.dll",
+                    "data": "28"
+                }
+            },
+            {
+                "name": "Shutter",
+                "patch": {
+                    "offset": 381959,
+                    "dllName": "jubeat.dll",
+                    "data": "04"
+                }
+            }
+        ]
+    }
+]
