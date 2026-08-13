@@ -653,6 +653,7 @@ Patches for which we don't know the corresponding game version.
 | L44 | jubeat.dll | 2024-11-27 | [L44-67331a16_20f050](patches/L44-67331a16_20f050.json) |
 | L44 | jubeat.dll | 2025-02-05 | [L44-67a05b54_20f070](patches/L44-67a05b54_20f070.json) |
 | L44 | jubeat.dll | 2025-10-29 | [L44-68f5c2ad_20f480](patches/L44-68f5c2ad_20f480.json) |
+| L44 | jubeat.dll | 2026-07-22 | [L44-6a59f658_210560](patches/L44-6a59f658_210560.json) |
 
 </details>
 
