@@ -2,7 +2,7 @@
     {
         "gameCode": "M39",
         "version": "2026-04-15",
-        "lastUpdated": "2026-08-09 03:26:34",
+        "lastUpdated": "2026-08-18 01:24:54",
         "source": "https://patcher.573.moe/"
     },
     {
@@ -22,21 +22,20 @@
     {
         "name": "Time Play Timer Freeze",
         "description": "Freezes the timer in time play modes.",
-        "caution": "Experimental. Shows 00:00 before playing the first song.",
         "gameCode": "M39",
         "type": "memory",
         "patches": [
             {
-                "offset": 133026,
+                "offset": 127031,
                 "dllName": "popn.dll",
-                "dataDisabled": "0FB6F2",
-                "dataEnabled": "B20190"
+                "dataDisabled": "F20F2CF83BFA",
+                "dataEnabled": "89D739D66690"
             },
             {
-                "offset": 133049,
+                "offset": 127068,
                 "dllName": "popn.dll",
-                "dataDisabled": "400FB6D6",
-                "dataEnabled": "B2019090"
+                "dataDisabled": "7C",
+                "dataEnabled": "EB"
             }
         ]
     },
@@ -249,23 +248,28 @@
         ]
     },
     {
-        "name": "Expand Judge Adjust Window",
-        "description": "Expands the minimum and maximum 'Judge Adjust' settings values to -90 and 90, respectively.",
-        "caution": "Experimental. Judge adjust resets to 0 after playing when absolute value is >30.",
+        "name": "Increase Judge Adjust Limit",
+        "description": "Changes the minimum and maximum 'Judge Adjust' option values to -120 and 120, respectively.",
         "gameCode": "M39",
         "type": "memory",
         "patches": [
             {
+                "offset": 678199,
+                "dllName": "popn.dll",
+                "dataDisabled": "E854120000",
+                "dataEnabled": "0FB6016690"
+            },
+            {
                 "offset": 2117218,
                 "dllName": "popn.dll",
                 "dataDisabled": "1E",
-                "dataEnabled": "5A"
+                "dataEnabled": "78"
             },
             {
                 "offset": 2117225,
                 "dllName": "popn.dll",
                 "dataDisabled": "E2",
-                "dataEnabled": "A6"
+                "dataEnabled": "88"
             }
         ]
     },
@@ -284,8 +288,8 @@
         }
     },
     {
-        "name": "Disable character win/lose animation",
-        "description": "Exit out of songs faster.",
+        "name": "Quick Retire",
+        "description": "Skips character win/lose animation at the end of songs.",
         "gameCode": "M39",
         "type": "memory",
         "patches": [
@@ -307,7 +311,7 @@
                 "offset": 1296156,
                 "dllName": "popn.dll",
                 "dataDisabled": "2BC2D1E803C2C1E8036BC00E",
-                "dataEnabled": "83E80C909090909090909090"
+                "dataEnabled": "83E80C660F1F840000000000"
             }
         ]
     },
