@@ -1,9 +1,9 @@
 [
     {
         "gameCode": "LDJ",
-        "version": "2026-08-19 (010)",
-        "lastUpdated": "2026-08-21 03:01:05",
-        "source": "https://patcher.573.moe"
+        "version": "2026-08-19 (012)",
+        "lastUpdated": "2026-08-27 00:52:35",
+        "source": "https://patcher.573.moe/"
     },
     {
         "name": "Shared Mode WASAPI",
@@ -13,7 +13,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 4965419,
+                "offset": 4919755,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "448BF2",
                 "dataEnabled": "4D31F6"
@@ -27,7 +27,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 11007685,
+                "offset": 10168197,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "FF90A0000000",
                 "dataEnabled": "909090909090"
@@ -35,16 +35,16 @@
         ]
     },
     {
-        "name": "Force LDJ Mode",
-        "description": "Forces the game to run as LDJ (012, 60Hz) instead of TDJ (010, 120Hz).",
+        "name": "Force TDJ Mode",
+        "description": "Forces the game to run as TDJ (010, 120Hz) instead of LDJ (012, 60Hz).",
         "gameCode": "LDJ",
         "type": "memory",
         "patches": [
             {
-                "offset": 10850855,
+                "offset": 10011714,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "03",
-                "dataEnabled": "02"
+                "dataDisabled": "02",
+                "dataEnabled": "03"
             }
         ]
     },
@@ -55,7 +55,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9863096,
+                "offset": 9023128,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "84",
                 "dataEnabled": "81"
@@ -69,7 +69,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9044573,
+                "offset": 8204333,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "7E",
                 "dataEnabled": "EB"
@@ -83,7 +83,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9502744,
+                "offset": 8662504,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "7D38",
                 "dataEnabled": "9090"
@@ -97,13 +97,13 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9448112,
+                "offset": 8607872,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "05",
                 "dataEnabled": "0C"
             },
             {
-                "offset": 9448491,
+                "offset": 8608251,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "05",
                 "dataEnabled": "0C"
@@ -117,13 +117,13 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 10329605,
+                "offset": 9490133,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "4D03C849F7F1",
                 "dataEnabled": "BA0C00000090"
             },
             {
-                "offset": 10329227,
+                "offset": 9489755,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "33D248F7F3",
                 "dataEnabled": "BA0C000000"
@@ -137,7 +137,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 6292832,
+                "offset": 5450576,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "488BC455",
                 "dataEnabled": "488BC1C3"
@@ -151,7 +151,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 8856256,
+                "offset": 8016016,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "40534883EC20",
                 "dataEnabled": "B001C3909090"
@@ -166,7 +166,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9499440,
+                "offset": 8659200,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "7C79",
                 "dataEnabled": "9090"
@@ -180,7 +180,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9925007,
+                "offset": 9085039,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "750B",
                 "dataEnabled": "9090"
@@ -195,7 +195,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 13325080,
+                "offset": 12477896,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "5F",
                 "dataEnabled": "00"
@@ -209,7 +209,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 13924680,
+                "offset": 13077576,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "73797373645F6E6577735F637574696E5F7365",
                 "dataEnabled": "73797373645F64756D6D790000000000000000"
@@ -223,13 +223,13 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 8568160,
+                "offset": 7727920,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "0F8493000000",
                 "dataEnabled": "31C090909090"
             },
             {
-                "offset": 9401847,
+                "offset": 8561607,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "74",
                 "dataEnabled": "EB"
@@ -244,7 +244,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 8856047,
+                "offset": 8015807,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "4084FF",
                 "dataEnabled": "909090"
@@ -259,7 +259,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 11057996,
+                "offset": 10218540,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "00320000",
                 "dataEnabled": "00002003"
@@ -274,7 +274,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 14488168,
+                "offset": 13641080,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "3C",
                 "dataEnabled": "78"
@@ -291,25 +291,25 @@
             {
                 "name": "Default",
                 "patch": {
-                    "offset": 6169407,
+                    "offset": 5327151,
                     "dllName": "bm2dx.dll",
-                    "data": "1DE86B00"
+                    "data": "4DD26B00"
                 }
             },
             {
                 "name": "Song Title/Ticker information",
                 "patch": {
-                    "offset": 6169407,
+                    "offset": 5327151,
                     "dllName": "bm2dx.dll",
-                    "data": "89F4C90A"
+                    "data": "59CEC60A"
                 }
             },
             {
                 "name": "Hide",
                 "patch": {
-                    "offset": 6169407,
+                    "offset": 5327151,
                     "dllName": "bm2dx.dll",
-                    "data": "F1D77C00"
+                    "data": "11C37C00"
                 }
             }
         ]
@@ -321,10 +321,10 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 6169725,
+                "offset": 5327469,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "87E76B00",
-                "dataEnabled": "4BF3C90A"
+                "dataDisabled": "B7D16B00",
+                "dataEnabled": "1BCDC60A"
             }
         ]
     },
@@ -335,7 +335,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 13239152,
+                "offset": 12391824,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "4352454449543A20256420434F494E3A202564202F20256400000000000000004352454449543A202564000000000000504153454C493A204E4F5420415641494C41424C45000000455854524120504153454C493A2025640000000000000000455854524120504153454C493A2025730000000000000000504153454C493A202564000000000000504153454C493A202573000000000000504153454C493A202A2A2A2A2A2A0000202B202564000000202B202573000000504153454C493A204E4F204143434F554E54000000000000494E5345525420434F494E5B535D0000504153454C493A202A2A2A2A2A2A202B20303030303000004352454449543A20393920434F494E3A203939202F203130",
                 "dataEnabled": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
@@ -349,7 +349,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9549251,
+                "offset": 8709011,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "74",
                 "dataEnabled": "EB"
@@ -363,37 +363,37 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 13284637,
+                "offset": 12437309,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "5F",
                 "dataEnabled": "00"
             },
             {
-                "offset": 13284653,
+                "offset": 12437325,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "5F",
                 "dataEnabled": "00"
             },
             {
-                "offset": 13332461,
+                "offset": 12485277,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "5F",
                 "dataEnabled": "00"
             },
             {
-                "offset": 13370885,
+                "offset": 12523709,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "5F",
                 "dataEnabled": "00"
             },
             {
-                "offset": 13370901,
+                "offset": 12523725,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "5F",
                 "dataEnabled": "00"
             },
             {
-                "offset": 13370917,
+                "offset": 12523741,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "5F",
                 "dataEnabled": "00"
@@ -407,7 +407,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 8532765,
+                "offset": 7692525,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "0F85",
                 "dataEnabled": "90E9"
@@ -421,7 +421,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9918146,
+                "offset": 9078178,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "FFC0",
                 "dataEnabled": "31C0"
@@ -435,7 +435,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9443926,
+                "offset": 8603686,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "84C0",
                 "dataEnabled": "9090"
@@ -450,13 +450,13 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9029275,
+                "offset": 8189035,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "7416",
                 "dataEnabled": "9090"
             },
             {
-                "offset": 9029291,
+                "offset": 8189051,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "84C0",
                 "dataEnabled": "0C01"
@@ -470,7 +470,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 8965016,
+                "offset": 8124776,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "0F4DDD",
                 "dataEnabled": "8BDD90"
@@ -484,19 +484,19 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 8832080,
+                "offset": 7991840,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "0F84B0000000",
                 "dataEnabled": "909090909090"
             },
             {
-                "offset": 8832088,
+                "offset": 7991848,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "0F8EA8000000",
                 "dataEnabled": "909090909090"
             },
             {
-                "offset": 9272998,
+                "offset": 8432758,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "7427",
                 "dataEnabled": "9090"
@@ -511,7 +511,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 6178131,
+                "offset": 5335875,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "0F84",
                 "dataEnabled": "90E9"
@@ -525,13 +525,13 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9695053,
+                "offset": 8855085,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "5802",
                 "dataEnabled": "0100"
             },
             {
-                "offset": 10936834,
+                "offset": 10097346,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "0300",
                 "dataEnabled": "0100"
@@ -545,7 +545,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9648008,
+                "offset": 8808008,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "0F85",
                 "dataEnabled": "90E9"
@@ -560,7 +560,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9699323,
+                "offset": 8859355,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "84",
                 "dataEnabled": "81"
@@ -574,7 +574,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 8837537,
+                "offset": 7997297,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "750A",
                 "dataEnabled": "9090"
@@ -589,85 +589,85 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9418101,
+                "offset": 8577861,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "78",
                 "dataEnabled": "F0"
             },
             {
-                "offset": 9495731,
+                "offset": 8655491,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "78",
                 "dataEnabled": "F0"
             },
             {
-                "offset": 9418093,
+                "offset": 8577853,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "4F",
-                "dataEnabled": "4D"
+                "dataDisabled": "6F",
+                "dataEnabled": "6D"
             },
             {
-                "offset": 5849534,
+                "offset": 5007278,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "CCCC",
                 "dataEnabled": "D1F9"
             },
             {
-                "offset": 9901198,
+                "offset": 9061230,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "8B0D3003910A",
+                "dataDisabled": "8B0D10D48D0A",
                 "dataEnabled": "B92000000090"
             },
             {
-                "offset": 9419202,
+                "offset": 8578962,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "6A",
                 "dataEnabled": "67"
             },
             {
-                "offset": 9418029,
+                "offset": 8577789,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "CCCCCC",
                 "dataEnabled": "8B713C"
             },
             {
-                "offset": 9418129,
+                "offset": 8577889,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "8B4B3C",
                 "dataEnabled": "D1FE90"
             },
             {
-                "offset": 9418138,
+                "offset": 8577898,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "E903D1",
                 "dataEnabled": "EE01F2"
             },
             {
-                "offset": 9418154,
+                "offset": 8577914,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "2BC8",
                 "dataEnabled": "29C6"
             },
             {
-                "offset": 9418157,
+                "offset": 8577917,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "F9",
                 "dataEnabled": "FE"
             },
             {
-                "offset": 9905351,
+                "offset": 9065383,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "CCCCCCCCCCCCCCCCCC",
                 "dataEnabled": "448B491841D1F9EB10"
             },
             {
-                "offset": 9905405,
+                "offset": 9065437,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "448B4318",
                 "dataEnabled": "458BC190"
             },
             {
-                "offset": 9906026,
+                "offset": 9066058,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "72",
                 "dataEnabled": "59"
@@ -681,7 +681,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 10121734,
+                "offset": 9282262,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "0F8586000000",
                 "dataEnabled": "909090909090"
@@ -696,13 +696,13 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 8516035,
+                "offset": 7675795,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "75",
                 "dataEnabled": "EB"
             },
             {
-                "offset": 10850679,
+                "offset": 10011223,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "7403",
                 "dataEnabled": "9090"
@@ -719,7 +719,7 @@
             {
                 "name": "60 FPS (Default)",
                 "patch": {
-                    "offset": 10850145,
+                    "offset": 10010689,
                     "dllName": "bm2dx.dll",
                     "data": "C745DB3C000000C745FF01000000488B45D748894503C745D701000000C745DB3C000000"
                 }
@@ -727,7 +727,7 @@
             {
                 "name": "120 FPS",
                 "patch": {
-                    "offset": 10850145,
+                    "offset": 10010689,
                     "dllName": "bm2dx.dll",
                     "data": "C745DB78000000C745FF01000000488B45D748894503C745D701000000C745DB78000000"
                 }
@@ -744,7 +744,7 @@
             {
                 "name": "60 FPS",
                 "patch": {
-                    "offset": 9679734,
+                    "offset": 8839734,
                     "dllName": "bm2dx.dll",
                     "data": "3C00"
                 }
@@ -752,7 +752,7 @@
             {
                 "name": "120 FPS",
                 "patch": {
-                    "offset": 9679734,
+                    "offset": 8839734,
                     "dllName": "bm2dx.dll",
                     "data": "7800"
                 }
@@ -767,7 +767,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 9703120,
+                "offset": 8863152,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "32C0",
                 "dataEnabled": "B001"
