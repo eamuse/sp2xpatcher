@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2026-09-15",
-        "lastUpdated": "2026-09-16 12:36:54",
+        "lastUpdated": "2026-09-24 20:06:00",
         "source": "https://patcher.573.moe/"
     },
     {
@@ -728,6 +728,20 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "74",
                 "dataEnabled": "75"
+            }
+        ]
+    },
+    {
+        "name": "Fix Duplicate Players in Online Matchmaking",
+        "description": "Fix duplicate players appearing when using the Freeze Timer patch during online matchmaking.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 5968341,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7C",
+                "dataEnabled": "EB"
             }
         ]
     }
