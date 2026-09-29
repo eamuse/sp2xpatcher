@@ -773,5 +773,19 @@
                 "dataEnabled": "B001"
             }
         ]
+    },
+    {
+        "name": "Improve turntable detection in TDJ",
+        "description": "Fix TDJ turntable deadzone logic to match LDJ and INF behavior. Useful if you have an old controller.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 8512280,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "83C70E",
+                "dataEnabled": "83C70C"
+            }
+        ]
     }
 ]
