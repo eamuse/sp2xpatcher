@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2026-09-16 (010)",
-        "lastUpdated": "2026-09-16 12:43:50",
+        "lastUpdated": "2026-10-14 04:06:04",
         "source": "https://patcher.573.moe/"
     },
     {
@@ -73,6 +73,20 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "7E",
                 "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "CS-style Song Start Delay",
+        "description": "Lets you pause at the start of a song by holding Start.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 9416456,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7D38",
+                "dataEnabled": "9090"
             }
         ]
     },
