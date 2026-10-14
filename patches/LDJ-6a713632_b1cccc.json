@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2026-08-19 (010)",
-        "lastUpdated": "2026-08-21 03:01:05",
+        "lastUpdated": "2026-10-13 01:08:11",
         "source": "https://patcher.573.moe"
     },
     {
@@ -785,6 +785,120 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "83C70E",
                 "dataEnabled": "83C70C"
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "gameCode": "LDJ",
+        "id": "tdj-60hz-mode",
+        "name": "TDJ 60Hz Mode",
+        "description": "Targets TDJ at 60 Hz and disables the TDJ startup monitor check. Enable all five patches and -iidxtdj.",
+        "caution": "Experimental. NOT verified on an arcade cabinet! PC use only."
+    },
+    {
+        "name": "TDJ 60Hz - Main Loop Timing and Animations",
+        "description": "Sets the 60 FPS configuration used by main-loop pacing and animation timing.",
+        "caution": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "group": "tdj-60hz-mode",
+        "patches": [
+            {
+                "offset": 10850203,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "C745DB78000000C7451703000000488B45D74889451BC745D701000000C745DB78000000",
+                "dataEnabled": "C745DB3C000000C7451703000000488B45D74889451BC745D701000000C745DB3C000000"
+            }
+        ]
+    },
+    {
+        "name": "TDJ 60Hz - DX9 Display",
+        "description": "Sets fullscreen refresh rate and all fallbacks to 60 Hz.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "group": "tdj-60hz-mode",
+        "patches": [
+            {
+                "offset": 9679734,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "78000000",
+                "dataEnabled": "3C000000"
+            },
+            {
+                "offset": 9679762,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "78000000",
+                "dataEnabled": "3C000000"
+            },
+            {
+                "offset": 9679790,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "78000000",
+                "dataEnabled": "3C000000"
+            },
+            {
+                "offset": 9679818,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "78000000",
+                "dataEnabled": "3C000000"
+            },
+            {
+                "offset": 9679846,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "78000000",
+                "dataEnabled": "3C000000"
+            }
+        ]
+    },
+    {
+        "name": "TDJ 60Hz - Startup Loop Animation Timestep",
+        "description": "Changes the separate startup loop's fixed animation timestep to 60 Hz.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "group": "tdj-60hz-mode",
+        "patches": [
+            {
+                "offset": 9678541,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7505",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "TDJ 60Hz - Disable Monitor Check",
+        "description": "Bypasses TDJ startup FPS validation, retries, and the TDJ monitor error.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "group": "tdj-60hz-mode",
+        "patches": [
+            {
+                "offset": 9648008,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "TDJ 60Hz - Gameplay FPS Correction",
+        "description": "Uses LDJ 60 Hz bounds for gameplay and saved FPS.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "group": "tdj-60hz-mode",
+        "patches": [
+            {
+                "offset": 13558344,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "0000000000A05D40",
+                "dataEnabled": "0000000000804C40"
+            },
+            {
+                "offset": 13558352,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "0000000000605E40",
+                "dataEnabled": "0000000000004F40"
             }
         ]
     }
