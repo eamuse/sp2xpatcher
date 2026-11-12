@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2026-09-16 (012)",
-        "lastUpdated": "2026-10-14 04:06:06",
+        "lastUpdated": "2026-10-31 01:55:13",
         "source": "https://patcher.573.moe/"
     },
     {
@@ -669,16 +669,17 @@
         ]
     },
     {
-        "name": "Force LDJ Software Video Decoder",
-        "description": "Forces LDJ Software Video Decoder for all boot modes, could help on systems that can't load videos properly.",
+        "name": "Disable DXVA2 Hardware Video Decode",
+        "description": "Force Media Foundation software decode instead of DXVA2 hardware decode for BGA movies.",
+        "caution": "Enable when BGA movies are not behaving properly or stay blank. Will cause additional CPU load.",
         "gameCode": "LDJ",
         "type": "memory",
         "patches": [
             {
-                "offset": 9179974,
+                "offset": 8738955,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "0F8586000000",
-                "dataEnabled": "909090909090"
+                "dataDisabled": "E868A71700",
+                "dataEnabled": "B805400080"
             }
         ]
     },
